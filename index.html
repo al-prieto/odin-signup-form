@@ -8,15 +8,36 @@
   </head>
   <body>
     <div class="container">
-      <div class="sidebar"></div>
+      <div class="sidebar">
+        <div class="logo-box">
+          <img src="img/odin-lined.png" alt="TOP logo" />
+          <h1>ODIN</h1>
+        </div>
+        <div class="photo-credit">
+          Photo by
+          <a
+            href="https://unsplash.com/photos/green-aurora-asc8mCGtSew"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Mariusz Walczuk</a
+          >
+          on
+          <a
+            href="https://unsplash.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Unsplash</a
+          >
+        </div>
+      </div>
       <div class="form-section">
         <div class="intro-text">
-          <p>
+          <p class="bold">
             This is not a real online service! You know you need something like
             this in your life to help you realize you deepest dreams.<br />Sign
-            up<em>now</em>to get started.
+            up <em>now</em> to get started.
           </p>
-          <p><em>You Know</em>you want to.</p>
+          <p class="bold"><em>You Know</em> you want to.</p>
         </div>
 
         <form action="" method="post">
@@ -41,20 +62,31 @@
               </div>
               <div class="input-group">
                 <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password" />
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  required
+                  minlength="8"
+                />
               </div>
               <div class="input-group">
-                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <label for="confirm-password" id="confirm-password"
+                  >CONFIRM PASSWORD</label
+                >
                 <input
                   type="password"
                   name="confirm-password"
                   id="confirm-password"
+                  required
+                  minlength="8"
                 />
               </div>
             </fieldset>
           </div>
           <button>Create Account</button>
         </form>
+        <p>Already have an account? <span>Log in</span></p>
       </div>
     </div>
   </body>
