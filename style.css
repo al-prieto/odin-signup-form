@@ -43,8 +43,8 @@ body {
 .logo-box {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 8px 0;
-  transform: translateY(-190px);
-  height: 90px;
+  transform: translateY(-164px);
+  height: 116px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -59,7 +59,7 @@ body {
 .logo-box h1 {
   color: white;
   font-family: "Norse Bold", sans-serif;
-  font-size: 4.25rem;
+  font-size: 5rem;
 }
 
 .photo-credit {
